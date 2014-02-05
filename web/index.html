@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Tienda de libros</title>
+    </head>
+    <body>
+        <h2>Tienda libros</h2>
+        <form method="get" action="http://localhost:8084/AccesoDatos/consulta">
+            <b>Elige un autor</b><br/>
+            <input type="checkbox" name="autor" value="Christian Perez"/> Christian Perez<br/>
+            <input type="checkbox" name="autor" value="Carlos tres"/> Carlos tres<br/>
+            <input type="submit" value="Buscar"/>
+        </form>
+        <br/>
+        <a href="./controldesesiones">Ir al control de sesiones</a>
+    </body>
+</html>
+
